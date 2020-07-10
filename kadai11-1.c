@@ -26,7 +26,7 @@ int main(){
     double a=0.0,b=1.0,h;
 
     for(n=1;n<=256;n=2*n){
-        printf("%6d  %.14f\n",2*n,V(a,b,n));
+        printf("%.14f\n",V(a,b,n));
     }
 
     return 0;
