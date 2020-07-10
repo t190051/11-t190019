@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{課題}
+\author{t1900１９ }
+\date{July 2020}
+
+\begin{document}
+
+\maketitle{}
+(1)//
+$\lim{(h\to0)}f(a+h)//
+=f(a+0)=f(a)$//
+(2)//
+$\lim{(h\to0)}\frac{f(a+2h)-f(a)}{2h}//
+=f'(a)$（微分の定義）//
+(3)//
+$\lim{(h\to0)}\frac{f(a)+f(a+2h)-2f(a+h)}{2h^{2}}//
+=\frac{\frac{f(a+2h)+f(a)}{2}+f(a+h)}{h^{2}}//
+=\frac{f''(a)}{2}$(微分の定義)//
+(1)//
+$\frac{1}{n}\sum_{k=1}^{n}{\frac{k^{4}}{n^{4}}}//
+=\frac{1}{n^{5}}\sum_{k=1}^{n}{k^{4}//
+=\frac{1}{30}(1+\frac{1}{n})(2+\frac{1}{n})(3+\frac{3}{n}+\frac{1}{n^{2}})}$//
+また$n\to \infty$とすると$\frac{1}{5}$となる//
+(2)//
+$\frac{1}{n}(\frac{1}{2}+\sum_{k=1}^{n-1}{\frac{k^{4}}{n^{4}}})//
+=\frac{1}{2n}+\frac{1}{n^{5}}\sum_{k=1}^{n}{k^{4}//
+=\frac{1}{2n}+\frac{1}{30}(1-\frac{1}{n})(2-\frac{1}{n})(3-\frac{3}{n}-\frac{5}{n^{2}})}$//
+また$n\to \infty$とすると$\frac{1}{5}$となる//
+(3)\\$\frac{4}{3n^{5}}\sum_{k=1}^{\frac{n}{2}-1}{(24k^{4}+48k^{3}+72k^{2}+12k+5)}//
+=\frac{8}{15}(\frac{1}{2}-\frac{1}{n})(1-\frac{1}{n})(\frac{3}{4}-\frac{3}{2n}-\frac{1}{n^{2}})+\frac{4}{3n^{4}}(n-2)(6n-3)+\frac{1}{n^{3}}(n-2)^{2}+\frac{20}{3n^{5}}(\frac{n}{2}-1)$//
+また$n\to \infty$とすると$\frac{1}{5}$となる//
+(4)//
+より高次の近似なので、シンプソンの公式が一番誤差が小さくなる。
+
+
+
+\end{document}
